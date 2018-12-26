@@ -1,0 +1,13 @@
+Package: twinkle
+Type: Package
+Title: Dynamic Smooth Transition ARMAX Models
+Version: 0.9-1
+Date: 2014-03-30
+Author: alexios ghalanos <alexios@4dscape.com>
+Maintainer: alexios ghalanos <alexios@4dscape.com>
+Description: Dynamic Smooth Transition AutoRegressive Moving Average Models
+Collate: star-classes.R star-distributions.R star-aux.R star-likelihood.R star-solvers.R star-tests.R star-forecast.R star-simulation.R star-rolling.R star-main.R star-plots.R star-methods.R zzz.R
+Depends: R (>= 2.10), methods, rugarch
+Imports: numDeriv, ks, KernSmooth, Rsolnp, lattice, MASS, parallel, zoo, xts, parma, RcppDE, SkewHyperbolic
+LazyLoad: yes
+License: GPL-3
